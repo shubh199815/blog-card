@@ -10,6 +10,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
+  background: linear-gradient(to bottom right, #f8fafc, #d3d7dd);
 }
 
 * {
@@ -81,12 +82,12 @@ body {
 .card-body {
   display: flex;
   flex-direction: column;
-  row-gap: 12px;
+  row-gap: 24px;
 }
 
 .card-description {
   font-size: 16px;
-  color: #525252;
+  color: #292424;
 }
 
 .card-button {
