@@ -71,17 +71,17 @@ body {
   display: inline-block;
   padding-top: 3px;
   padding-left: 8px;
-  background-color: #f1fdf5;
+  background-color: #f0fdf4;
   border-radius: 20px;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  border: solid 1px #11e45b;
+  border: solid 1px #bbf7d0;
   height: 24px;
   width: 67px;
   font-size: 14px;
   line-height: 1;
-  color: #008237;
+  color: #15803d;
 }
 
 .card-title {
