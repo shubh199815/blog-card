@@ -86,6 +86,7 @@ body {
 }
 
 .card-title {
+  color: #171717;
   font-size: 18px;
   line-height: 28px;
   font-weight: 600;
@@ -99,7 +100,7 @@ body {
 
 .card-description {
   font-size: 16px;
-  color: #292424;
+  color: #525252;
 }
 
 .card-button {
@@ -107,17 +108,21 @@ body {
   column-gap: 6px;
   background: none;
   border: none;
+  border-radius: 4px;
   outline: none;
   box-shadow: none;
-  color: #2a2e8d;
+  color: #6366f1;
   padding: 0;
   font-size: 16px;
+  align-items: center;
 }
 
 .card-button p {
   padding: 0 2px;
+  color: #4338ca;
+  line-height: 24px;
 }
 
-.card-button img {
+/* .card-button img {
   padding: 2px 0;
-}
+} */
