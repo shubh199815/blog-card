@@ -118,6 +118,7 @@ body {
   font-size: 18px;
   height: 28px;
   align-items: center;
+  margin-bottom: -5px;
 }
 
 .card-button p {
@@ -126,7 +127,3 @@ body {
   color: #4338ca;
   line-height: 24px;
 }
-
-/* .card-button img {
-  padding: 2px 0;
-} */
