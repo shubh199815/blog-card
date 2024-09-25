@@ -45,7 +45,7 @@ body {
   flex-direction: column;
   background-color: white;
   border-radius: 8px;
-  box-shadow: rgba(0, 0, 0, 0.2) 1px 2px 7px 0px;
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.1);
 }
 
 .card-content {
@@ -115,11 +115,13 @@ body {
   box-shadow: none;
   color: #6366f1;
   padding: 0;
-  font-size: 16px;
+  font-size: 18px;
+  height: 28px;
   align-items: center;
 }
 
 .card-button p {
+  font-size: 16px;
   padding: 0 2px;
   color: #4338ca;
   line-height: 24px;
