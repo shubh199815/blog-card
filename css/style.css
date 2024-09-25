@@ -55,6 +55,12 @@ body {
   row-gap: 12px;
 }
 
+.card-header {
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+}
+
 .card-image {
   height: 288px;
   object-fit: cover;
