@@ -68,19 +68,20 @@ body {
 }
 
 .card-badge {
-  display: inline-block;
-  padding-top: 3px;
-  padding-left: 8px;
+  display: flex;
+  padding: 2px 8px;
   background-color: #f0fdf4;
   border-radius: 20px;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
   border: solid 1px #bbf7d0;
   height: 24px;
   width: 67px;
+  align-items: center;
+}
+
+.card-badge p {
   font-size: 14px;
-  line-height: 1;
+  line-height: 20px;
+  width: auto;
   color: #15803d;
 }
 
